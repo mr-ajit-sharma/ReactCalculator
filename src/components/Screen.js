@@ -5,7 +5,7 @@ const Screen = () => {
     const {calc}=useContext(CalcContext)
   return (
     // <TextFit className='screen' mode="single" max={70}>{calc.num?calc.num:calc.res}</TextFit>
-    <h3 className='screen'>{calc.num?calc.num:calc.res}</h3>
+    <h1 className='screen'>{calc.num?calc.num:calc.res}</h1>
   )
 }
 
